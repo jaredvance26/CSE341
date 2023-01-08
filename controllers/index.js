@@ -1,5 +1,5 @@
 displayData = (req, res) => {
-  const data = "The webserver is working";
+  const data = "Jared Vance";
   res.status(200).send(data);
 };
 
