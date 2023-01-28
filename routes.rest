@@ -19,12 +19,12 @@ content-type: application/json
 
 {
 
-"firstName":"Kaleb",
-"lastName":"Arave",
-"email":"arave@test.com",
-"favoriteColor":"Orange",
-"birthday":"012/16/2000"
-
+  "firstName": "Daniel",
+  "lastName": "Larusso",
+  "email": "karatekid@gmail.com",
+  "favoriteColor": "yellow",
+  "birthday": "1/1/1999"
+  
 }
 
 ### PUT contact
@@ -43,3 +43,10 @@ content-type: application/json
 ### DELETE contact
 DELETE http://localhost:3000/contacts/63cc62de75048f8ecc0ea6b2 HTTP/1.1
 
+{
+  "firstName": "Daniel",
+  "lastName": "Larusso",
+  "email": "karatekid@gmail.com",
+  "favoriteColor": "yellow",
+  "birthday": "1/1/1999"
+}
