@@ -43,8 +43,6 @@ content-type: application/json
 ### DELETE contact
 DELETE http://localhost:3000/contacts/63cc62de75048f8ecc0ea6b2 HTTP/1.1
 
-// ---------------------------------------------------------------------
-
 ### GET ALL
 GET https://vance-cse-341.onrender.com/contacts HTTP/1.1
 
