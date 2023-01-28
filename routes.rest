@@ -43,10 +43,43 @@ content-type: application/json
 ### DELETE contact
 DELETE http://localhost:3000/contacts/63cc62de75048f8ecc0ea6b2 HTTP/1.1
 
+// ---------------------------------------------------------------------
+
+### GET ALL
+GET https://vance-cse-341.onrender.com/contacts HTTP/1.1
+
+### GET ONE
+GET https://vance-cse-341.onrender.com/contacts/63c32468f6611ecb7cfe5351 HTTP/1.1
+
+### CREATE ONE
+POST https://vance-cse-341.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
 {
+
   "firstName": "Daniel",
   "lastName": "Larusso",
   "email": "karatekid@gmail.com",
   "favoriteColor": "yellow",
   "birthday": "1/1/1999"
+
 }
+
+### UPDATE ONE
+
+PUT https://vance-cse-341.onrender.com/contacts/63c32429f6611ecb7cfe5350 HTTP/1.1
+content-type: application/json
+
+{
+
+"firstName":"Jared",
+"lastName":"Vance",
+"email":"jared@gmail.com",
+"favoriteColor":"blue",
+"birthday":"03/26/2000"
+
+}
+
+###DElETE ONE
+
+DELETE https://vance-cse-341.onrender.com/contacts/63d47747fa421b86b57100dc HTTP/1.1
